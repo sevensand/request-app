@@ -3,12 +3,15 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "gulp": "^3.9.1",
+    "bootstrap": "^4.1.1",
+    "browser-sync": "^2.24.4",
     "gulp-change": "^1.0.0",
     "gulp-clean-css": "^3.9.4",
     "gulp-rename": "^1.2.3",
-    "gulp-sass": "^4.0.1",
     "gulp-uglify": "^3.0.0",
+    "jquery": "^3.3.1",
+    "mixins": "0.0.1",
+    "popper": "^1.0.1",
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
     "react-router": "^4.2.0",
@@ -19,5 +22,11 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "bower-sync": "^0.1.1",
+    "font-awesome": "^4.7.0",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.1"
   }
 }

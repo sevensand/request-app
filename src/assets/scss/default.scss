@@ -1,7 +1,53 @@
-body {
-  font-size: 23px;
-  a {
-    color: black;
+$mobile-portrait: "only screen and (max-width : 320px)";
+$mobile-landscape: "only screen and (max-width : 480px)";
+$tablet-portrait: "only screen and (max-width : 768px)";
+$tablet-landscape: "only screen and (max-width : 1020px)";
+$desktop: "only screen and (max-width : 1382px)";
+$desktop-max: "only screen and (min-width : 1382px)";
+
+
+@mixin login_layout {
+  .redtrans {
+    width: 100%;
+    background-color: rgba(89, 0, 0, 0.5);
+  }
+  .logoHeader {
+    width: 100%;
+  }
+  .trans_icon {
+    background-color: rgba(89, 0, 0, 0.5) !important;
+    border-style: none !important;
+    padding-left: 15px !important;
+    border-radius: 20px 0px 0px 20px !important;
 
   }
+  .transparent_input {
+    border-radius: 0px 20px 20px 0px !important;
+  }
+  .icon_log {
+    color: #ffffff !important;
+  }
+}
+
+@media #{$mobile-portrait} {
+  @include login_layout;
+}
+
+@media #{$mobile-landscape} {
+  @include login_layout;
+}
+
+@media #{$tablet-portrait} {
+  @include login_layout;
+}
+
+@media #{$tablet-landscape} {
+  @include login_layout;
+}
+
+@media #{$desktop} {
+  @include login_layout;
+}
+@media #{$desktop-max} {
+  @include login_layout;
 }

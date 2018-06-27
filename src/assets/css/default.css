@@ -1,1 +1,95 @@
-body{font-size:23px}body a{color:#000}
+@media only screen and (max-width: 320px) {
+  .redtrans {
+    width: 100%;
+    background-color: rgba(89, 0, 0, 0.5); }
+  .logoHeader {
+    width: 100%; }
+  .trans_icon {
+    background-color: rgba(89, 0, 0, 0.5) !important;
+    border-style: none !important;
+    padding-left: 15px !important;
+    border-radius: 20px 0px 0px 20px !important; }
+  .transparent_input {
+    border-radius: 0px 20px 20px 0px !important; }
+  .icon_log {
+    color: #ffffff !important; } }
+
+@media only screen and (max-width: 480px) {
+  .redtrans {
+    width: 100%;
+    background-color: rgba(89, 0, 0, 0.5); }
+  .logoHeader {
+    width: 100%; }
+  .trans_icon {
+    background-color: rgba(89, 0, 0, 0.5) !important;
+    border-style: none !important;
+    padding-left: 15px !important;
+    border-radius: 20px 0px 0px 20px !important; }
+  .transparent_input {
+    border-radius: 0px 20px 20px 0px !important; }
+  .icon_log {
+    color: #ffffff !important; } }
+
+@media only screen and (max-width: 768px) {
+  .redtrans {
+    width: 100%;
+    background-color: rgba(89, 0, 0, 0.5); }
+  .logoHeader {
+    width: 100%; }
+  .trans_icon {
+    background-color: rgba(89, 0, 0, 0.5) !important;
+    border-style: none !important;
+    padding-left: 15px !important;
+    border-radius: 20px 0px 0px 20px !important; }
+  .transparent_input {
+    border-radius: 0px 20px 20px 0px !important; }
+  .icon_log {
+    color: #ffffff !important; } }
+
+@media only screen and (max-width: 1020px) {
+  .redtrans {
+    width: 100%;
+    background-color: rgba(89, 0, 0, 0.5); }
+  .logoHeader {
+    width: 100%; }
+  .trans_icon {
+    background-color: rgba(89, 0, 0, 0.5) !important;
+    border-style: none !important;
+    padding-left: 15px !important;
+    border-radius: 20px 0px 0px 20px !important; }
+  .transparent_input {
+    border-radius: 0px 20px 20px 0px !important; }
+  .icon_log {
+    color: #ffffff !important; } }
+
+@media only screen and (max-width: 1382px) {
+  .redtrans {
+    width: 100%;
+    background-color: rgba(89, 0, 0, 0.5); }
+  .logoHeader {
+    width: 100%; }
+  .trans_icon {
+    background-color: rgba(89, 0, 0, 0.5) !important;
+    border-style: none !important;
+    padding-left: 15px !important;
+    border-radius: 20px 0px 0px 20px !important; }
+  .transparent_input {
+    border-radius: 0px 20px 20px 0px !important; }
+  .icon_log {
+    color: #ffffff !important; } }
+
+@media only screen and (min-width: 1382px) {
+  .redtrans {
+    width: 100%;
+    background-color: rgba(89, 0, 0, 0.5); }
+  .logoHeader {
+    width: 100%; }
+  .trans_icon {
+    background-color: rgba(89, 0, 0, 0.5) !important;
+    border-style: none !important;
+    padding-left: 15px !important;
+    border-radius: 20px 0px 0px 20px !important; }
+  .transparent_input {
+    border-radius: 0px 20px 20px 0px !important; }
+  .icon_log {
+    color: #ffffff !important; } }
