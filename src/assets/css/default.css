@@ -1,95 +1,137 @@
 @media only screen and (max-width: 320px) {
   .redtrans {
     width: 100%;
-    background-color: rgba(89, 0, 0, 0.5); }
+    background-color: rgba(75, 0, 0, 0.9) !important; }
   .logoHeader {
     width: 100%; }
   .trans_icon {
-    background-color: rgba(89, 0, 0, 0.5) !important;
+    background-color: #17a2b8 !important;
     border-style: none !important;
     padding-left: 15px !important;
     border-radius: 20px 0px 0px 20px !important; }
   .transparent_input {
     border-radius: 0px 20px 20px 0px !important; }
   .icon_log {
-    color: #ffffff !important; } }
+    color: #ffffff !important; }
+  .sign_up_link {
+    color: #ffffff; }
+  .sign_up {
+    color: #17a2b8; }
+    .sign_up:hover {
+      text-decoration: none;
+      color: #17a2b8; } }
 
 @media only screen and (max-width: 480px) {
   .redtrans {
     width: 100%;
-    background-color: rgba(89, 0, 0, 0.5); }
+    background-color: rgba(75, 0, 0, 0.9) !important; }
   .logoHeader {
     width: 100%; }
   .trans_icon {
-    background-color: rgba(89, 0, 0, 0.5) !important;
+    background-color: #17a2b8 !important;
     border-style: none !important;
     padding-left: 15px !important;
     border-radius: 20px 0px 0px 20px !important; }
   .transparent_input {
     border-radius: 0px 20px 20px 0px !important; }
   .icon_log {
-    color: #ffffff !important; } }
+    color: #ffffff !important; }
+  .sign_up_link {
+    color: #ffffff; }
+  .sign_up {
+    color: #17a2b8; }
+    .sign_up:hover {
+      text-decoration: none;
+      color: #17a2b8; } }
 
 @media only screen and (max-width: 768px) {
   .redtrans {
     width: 100%;
-    background-color: rgba(89, 0, 0, 0.5); }
+    background-color: rgba(75, 0, 0, 0.9) !important; }
   .logoHeader {
     width: 100%; }
   .trans_icon {
-    background-color: rgba(89, 0, 0, 0.5) !important;
+    background-color: #17a2b8 !important;
     border-style: none !important;
     padding-left: 15px !important;
     border-radius: 20px 0px 0px 20px !important; }
   .transparent_input {
     border-radius: 0px 20px 20px 0px !important; }
   .icon_log {
-    color: #ffffff !important; } }
+    color: #ffffff !important; }
+  .sign_up_link {
+    color: #ffffff; }
+  .sign_up {
+    color: #17a2b8; }
+    .sign_up:hover {
+      text-decoration: none;
+      color: #17a2b8; } }
 
 @media only screen and (max-width: 1020px) {
   .redtrans {
     width: 100%;
-    background-color: rgba(89, 0, 0, 0.5); }
+    background-color: rgba(75, 0, 0, 0.9) !important; }
   .logoHeader {
     width: 100%; }
   .trans_icon {
-    background-color: rgba(89, 0, 0, 0.5) !important;
+    background-color: #17a2b8 !important;
     border-style: none !important;
     padding-left: 15px !important;
     border-radius: 20px 0px 0px 20px !important; }
   .transparent_input {
     border-radius: 0px 20px 20px 0px !important; }
   .icon_log {
-    color: #ffffff !important; } }
+    color: #ffffff !important; }
+  .sign_up_link {
+    color: #ffffff; }
+  .sign_up {
+    color: #17a2b8; }
+    .sign_up:hover {
+      text-decoration: none;
+      color: #17a2b8; } }
 
 @media only screen and (max-width: 1382px) {
   .redtrans {
     width: 100%;
-    background-color: rgba(89, 0, 0, 0.5); }
+    background-color: rgba(75, 0, 0, 0.9) !important; }
   .logoHeader {
     width: 100%; }
   .trans_icon {
-    background-color: rgba(89, 0, 0, 0.5) !important;
+    background-color: #17a2b8 !important;
     border-style: none !important;
     padding-left: 15px !important;
     border-radius: 20px 0px 0px 20px !important; }
   .transparent_input {
     border-radius: 0px 20px 20px 0px !important; }
   .icon_log {
-    color: #ffffff !important; } }
+    color: #ffffff !important; }
+  .sign_up_link {
+    color: #ffffff; }
+  .sign_up {
+    color: #17a2b8; }
+    .sign_up:hover {
+      text-decoration: none;
+      color: #17a2b8; } }
 
 @media only screen and (min-width: 1382px) {
   .redtrans {
     width: 100%;
-    background-color: rgba(89, 0, 0, 0.5); }
+    background-color: rgba(75, 0, 0, 0.9) !important; }
   .logoHeader {
     width: 100%; }
   .trans_icon {
-    background-color: rgba(89, 0, 0, 0.5) !important;
+    background-color: #17a2b8 !important;
     border-style: none !important;
     padding-left: 15px !important;
     border-radius: 20px 0px 0px 20px !important; }
   .transparent_input {
     border-radius: 0px 20px 20px 0px !important; }
   .icon_log {
-    color: #ffffff !important; } }
+    color: #ffffff !important; }
+  .sign_up_link {
+    color: #ffffff; }
+  .sign_up {
+    color: #17a2b8; }
+    .sign_up:hover {
+      text-decoration: none;
+      color: #17a2b8; } }

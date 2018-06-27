@@ -26,15 +26,16 @@ class Login extends Component {
                       <div className="container text-center col-md-4 mt-5">
                         <img src={logoHeader} className="logoHeader mt-5"></img>
                         <div className="input-group mt-5">
-                        <span className="input-group-text trans_icon" id="inputGroup-sizing-default"><i className="fa fa-lock fa-1x icon_log"></i></span>
+                        <span className="input-group-text trans_icon" id="inputGroup-sizing-default"><i className="fa fa-user fa-1x icon_log"></i></span>
                             <input type="text" className="form-control transparent_input" aria-label="Default" aria-describedby="inputGroup-sizing-default"></input>
                         </div>
                         <div className="input-group mb-3 mt-3">
                           <span className="input-group-text trans_icon" id="inputGroup-sizing-default"><i className="fa fa-lock fa-1x icon_log"></i></span>
                             <input type="password" className="form-control transparent_input" aria-label="Default" aria-describedby="inputGroup-sizing-default"></input>
                         </div>
+
                             <a href="#" className="btn btn-info rounded btn_login">LOGIN</a>
-                            <p>Dont have account? Sign Up</p>
+                            <p className="sign_up_link">Dont have account? <a href="" className="sign_up">Sign Up</a></p>
                       </div>
                   </div>
 
