@@ -1,7 +1,67 @@
-body {
-  font-size: 23px;
-  a {
-    color: black;
+$mobile-portrait: "only screen and (max-width : 320px)";
+$mobile-landscape: "only screen and (max-width : 480px)";
+$tablet-portrait: "only screen and (max-width : 768px)";
+$tablet-landscape: "only screen and (max-width : 1020px)";
+$desktop: "only screen and (max-width : 1382px)";
+$desktop-max: "only screen and (min-width : 1382px)";
+$bg_color: rgba(75, 0, 0, 0.9) !important;
+$input_rad: 20px 0px 0px 20px !important;
+$input_rad1: 0px 20px 20px 0px !important;
+$p_color: #ffffff;
+
+@mixin login_layout {
+  .redtrans {
+    width: 100%;
+    background-color: $bg_color;
+  }
+  .logoHeader {
+    width: 100%;
+  }
+  .trans_icon {
+    background-color: #17a2b8 !important;
+    border-style: none !important;
+    padding-left: 15px !important;
+    border-radius: $input_rad;
 
   }
+  .transparent_input {
+    border-radius: $input_rad1;
+  }
+  .icon_log {
+    color: #ffffff !important;
+  }
+
+  .sign_up_link {
+    color: $p_color;
+  }
+  .sign_up {
+    color: #17a2b8;
+    &:hover {
+      text-decoration: none;
+      color: #17a2b8;
+    }
+  }
+}
+
+@media #{$mobile-portrait} {
+  @include login_layout;
+}
+
+@media #{$mobile-landscape} {
+  @include login_layout;
+}
+
+@media #{$tablet-portrait} {
+  @include login_layout;
+}
+
+@media #{$tablet-landscape} {
+  @include login_layout;
+}
+
+@media #{$desktop} {
+  @include login_layout;
+}
+@media #{$desktop-max} {
+  @include login_layout;
 }

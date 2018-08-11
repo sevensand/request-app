@@ -1,9 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import Login from './components/Login/';
+import './assets/css/default.css';
+import './assets/css/bootstrap.css';
+import './assets/css/font-awesome.css';
+
 
 
 ReactDOM.render(
-  <App />,
+  <Login />,
   document.getElementById('root')
 );
